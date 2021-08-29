@@ -363,7 +363,8 @@ namespace pokergame
         //Handing out the cards to the players. first two, then next player.... depending the number of players
         public void displayCards()
         {
-            Console.WriteLine("--- Round " + roundcount + " ---\n");
+            int displayround = roundcount + 1;
+            Console.WriteLine("\n--- Round " + displayround + " ---\n");
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("Player 1");
 

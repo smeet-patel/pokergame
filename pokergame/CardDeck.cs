@@ -26,7 +26,7 @@ namespace pokergame
             {
                 foreach (Face f in Enum.GetValues(typeof(Face)))
                 {
-                    Console.WriteLine(s+" " +f);
+                    //Console.WriteLine(s+" " +f);
                     deck[i] = new Card { CardSuit = s, CardFace = f };
                     i++;
                 }
